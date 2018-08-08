@@ -1,11 +1,12 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Routes, RouterModule } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
+import { SharedModule } from '../shared/shared.module';
+
+import { PayrollReportComponent } from './payroll-report/payroll-report.component';
 import { PayrollScreenComponent } from './payroll-screen.component';
 import { PayrollSearchComponent } from './payroll-search/payroll-search.component';
-import { PayrollReportComponent } from './payroll-report/payroll-report.component';
-import { SharedModule } from '../shared/shared.module';
 
 const payrollRoutes: Routes = [
   {
