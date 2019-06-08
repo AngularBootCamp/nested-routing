@@ -33,4 +33,4 @@ const payrollRoutes: Routes = [
     RouterModule.forChild(payrollRoutes)
   ]
 })
-export class PayrollModule { }
+export class PayrollModule {}

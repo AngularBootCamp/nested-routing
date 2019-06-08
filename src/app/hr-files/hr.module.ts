@@ -11,14 +11,12 @@ const hrRoutes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    HrFilesSearchComponent
-  ],
-  exports: [HrFilesSearchComponent],         // export COMPONENTS, directives, pipes
+  declarations: [HrFilesSearchComponent],
+  exports: [HrFilesSearchComponent], // export COMPONENTS, directives, pipes
   imports: [
     SharedModule,
     CommonModule,
     RouterModule.forChild(hrRoutes)
-  ]   // import MODULES
+  ] // import MODULES
 })
-export class HrModule { }
+export class HrModule {}

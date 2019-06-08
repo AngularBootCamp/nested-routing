@@ -4,4 +4,4 @@ import { Component } from '@angular/core';
   selector: 'payroll-report',
   templateUrl: './payroll-report.component.html'
 })
-export class PayrollReportComponent { }
+export class PayrollReportComponent {}

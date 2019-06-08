@@ -4,4 +4,4 @@ import { Component } from '@angular/core';
   selector: 'payroll-screen',
   templateUrl: './payroll-screen.component.html'
 })
-export class PayrollScreenComponent { }
+export class PayrollScreenComponent {}
