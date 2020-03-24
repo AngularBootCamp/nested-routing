@@ -8,4 +8,4 @@ import { SearchBoxComponent } from './search-box.component';
   exports: [SearchBoxComponent],
   imports: [CommonModule]
 })
-export class SharedModule {}
+export class SearchModule {}

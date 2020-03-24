@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { SharedModule } from '../shared/shared.module';
+import { SearchModule } from '../search/search.module';
 
 import { HrFilesSearchComponent } from './hr-files-search.component';
 
@@ -14,7 +14,7 @@ const hrRoutes: Routes = [
   declarations: [HrFilesSearchComponent],
   exports: [HrFilesSearchComponent], // export COMPONENTS, directives, pipes
   imports: [
-    SharedModule,
+    SearchModule,
     CommonModule,
     RouterModule.forChild(hrRoutes)
   ] // import MODULES
