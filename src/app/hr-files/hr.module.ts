@@ -14,8 +14,8 @@ const hrRoutes: Routes = [
   declarations: [HrFilesSearchComponent],
   exports: [HrFilesSearchComponent], // export COMPONENTS, directives, pipes
   imports: [
-    SearchModule,
     CommonModule,
+    SearchModule,
     RouterModule.forChild(hrRoutes)
   ] // import MODULES
 })

@@ -22,14 +22,14 @@ const payrollRoutes: Routes = [
 
 @NgModule({
   declarations: [
+    PayrollReportComponent,
     PayrollScreenComponent,
-    PayrollSearchComponent,
-    PayrollReportComponent
+    PayrollSearchComponent
   ],
   exports: [],
   imports: [
-    SearchModule,
     CommonModule,
+    SearchModule,
     RouterModule.forChild(payrollRoutes)
   ]
 })
