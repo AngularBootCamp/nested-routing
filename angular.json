@@ -1,6 +1,5 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "defaultProject": "nested-routing",
   "newProjectRoot": "projects",
   "projects": {
     "nested-routing": {

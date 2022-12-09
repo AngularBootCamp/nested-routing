@@ -13,7 +13,7 @@ const payrollRoutes: Routes = [
     path: '',
     component: PayrollScreenComponent,
     children: [
-      { path: '', redirectTo: 'search' },
+      { path: '', redirectTo: 'search', pathMatch: 'full' },
       { path: 'search', component: PayrollSearchComponent },
       { path: 'report', component: PayrollReportComponent }
     ]
