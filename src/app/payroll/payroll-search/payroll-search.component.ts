@@ -1,15 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'payroll-search',
+  selector: 'app-payroll-search',
   template: `
-    <div class="card">
-      <div class="card-content">
-        <span class="card-title">Payroll Search</span>
-        <div>Search for Employee Payroll Records</div>
-        <search-box></search-box>
-      </div>
-    </div>
+    <article>
+      <header>Payroll Search</header>
+      <p>Search for Employee Payroll Records</p>
+      <app-search-box></app-search-box>
+    </article>
   `
 })
 export class PayrollSearchComponent {}

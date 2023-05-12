@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'payroll-screen',
+  selector: 'app-payroll-screen',
   templateUrl: './payroll-screen.component.html'
 })
 export class PayrollScreenComponent {}

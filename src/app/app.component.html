@@ -1,18 +1,12 @@
-<header style="margin-top: 5px">
-  <nav>
-    <div class="nav-wrapper">
-      <ul>
-        <li routerLinkActive="green-background">
-          <a routerLink="/payroll">Payroll</a>
-        </li>
-        <li routerLinkActive="green-background">
-          <a routerLink="/hr">HR</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
-<div>
-  <router-outlet></router-outlet>
-  <div>Fake Copyright ABC 2057</div>
-</div>
+<nav>
+  <ul>
+    <li routerLinkActive="active-link">
+      <a routerLink="/payroll">Payroll</a>
+    </li>
+    <li routerLinkActive="active-link">
+      <a routerLink="/hr">HR</a>
+    </li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>

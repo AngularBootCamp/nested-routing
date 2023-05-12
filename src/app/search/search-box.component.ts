@@ -1,17 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'search-box',
+  selector: 'app-search-box',
   template: `
-    <span>
-      <input type="text" style="width: 25%" placeholder="Search" />
-      <span
-        class="material-icons"
-        style="position: relative;top: 7px;"
-      >
-        search
-      </span>
-    </span>
+    <input type="search" placeholder="Search" />
   `
 })
 export class SearchBoxComponent {}
