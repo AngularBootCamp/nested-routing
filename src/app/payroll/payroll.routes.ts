@@ -3,7 +3,7 @@ import { Routes } from '@angular/router';
 import { PayrollScreenComponent } from './payroll-screen.component';
 import { PayrollSearchComponent } from './payroll-search/payroll-search.component';
 
-const routes: Routes = [
+const payrollRoutes: Routes = [
   {
     path: '',
     component: PayrollScreenComponent,
@@ -24,4 +24,4 @@ const routes: Routes = [
   }
 ];
 
-export default routes;
+export default payrollRoutes;
